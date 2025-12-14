@@ -1,0 +1,110 @@
+body{
+	font-family: 'PT sans',sans-serif;
+	background-color: #252529;
+	margin: 0;
+	color: white;
+	line-height: 1.6;
+}
+
+a{
+	text-decoration: none;
+	color: #ccc;
+}
+
+#showcase{
+	margin: 0;
+	padding: 0;
+	background:url('chloe.jpg') no-repeat center/cover;
+	width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+#showcase.container{
+	margin-block: 25vh;
+}
+
+#showcase h1{
+	font-size: 4rem;
+	margin-bottom: 0;
+}
+
+#showcase h2{
+	font-size: 2rem;
+}
+
+nav{
+	height: 40px;
+	width: 100%;
+	background-color: black;
+	color: rgb(51, 34, 34);
+	position: fixed;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+}
+
+nav li{
+	display:inline;
+	float: left;
+}
+
+nav a{
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 0;
+	color: #eee;
+}
+
+nav li:hover{
+	background-color: #444;
+}
+
+.container{
+	max-width: 1180px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 3rem;
+}
+
+.lead{
+	font-size:1.3rem;
+}
+
+footer .footer-cols{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns:repeat(5, 2fr);
+	padding: 2rem;
+	text-align: left;
+	font-size: 19px;
+}
+
+footer .footer-cols ul{
+	list-style: none;
+}
+
+footer .footer-cols ul li:first-child{
+	font-size: 1.5rem;
+	padding-bottom: 0.5rem;
+	border-bottom: #444 solid 2px;
+	margin-bottom: 1rem;
+}
+
+footer .footer-bottom{
+	background-color: #333;
+	padding: 1rem;
+	text-align: center;
+}
+
+
+
+
+
+
+
